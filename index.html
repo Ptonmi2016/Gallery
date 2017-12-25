@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>得到APP书单</title>
+<meta name="description" content="This is a practice using DOM to handle a photo gallery">
+<meta name="keywords" content="DOM, gallery">
+<link href="style.css" rel="stylesheet">
+<script type="text/javascript" src="showPic.js"></script>
+</head>
+<body>
+  <h1>得到APP书单</h1>
+  <ul>
+  	<li><a href="images/选择的价值.jpg" onclick="showPic(this); return false;" title="选择的价值">选择的价值</a></li>
+  	<li><a href="images/跃迁.jpg" onclick="showPic(this); return false;" title="跃迁">跃迁</a></li>
+  	<li><a href="images/惊人的假说.jpg" onclick="showPic(this); return false;" title="惊人的假说">惊人的假说</a></li>
+  	<li><a href="images/如何做出正确的决策.jpg" onclick="showPic(this); return false;" title="如何做出正确的决策">如何做出正确的决策</a></li>
+  </ul>
+  <img id="placeholder" src="images/placeholder.png" alt="本书来自得到APP">
+  <p id="description">请选一本书</p>
+</body>
+</html>
