@@ -5,7 +5,23 @@
  * @date    2017-12-25 17:01:52
  * @version $Id$
  */
+
+.center{
+	text-align: center;
+}
+
+.center ul{
+	/*改为线内块级元素，靠左对齐*/
+	display: inline-block;
+	text-align: left;
+}
+
 #placeholder{
-	height: 800px;
+	/*占位符*/
+	height: auto;
 	width: 250px;
+	/*改为块级元素，居中对齐*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
